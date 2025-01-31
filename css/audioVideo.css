@@ -5,7 +5,6 @@ body{
 }
 
 header{
-  
     text-align: center;
     margin: 0;
     padding: 7px;
@@ -54,52 +53,32 @@ nav ul {
     background-color: aquamarine;  
     box-shadow: 5px 3px 4px rgba(22, 31, 49, 0.473);
   }
-  .video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  p{
-    font-size: 20px;
-    
-    text-align: center;
-    color: rgba(15, 18, 39, 0.884);
-  }
-  h2{
+  .paragrafo h2{
     color: #495f8d;
     text-align: center;
     font-size: 40px;
-   
     padding: 25px;
-    background-image: linear-gradient(to top, #a0d9fa80,  #a0d9fa00 );
-    border-radius: 6px;
-    box-shadow: 0px 3px 4px rgba(164, 187, 235, 0.349);
-    
   }
-  div.gallery {
-    margin: 55px 30px 55px 100px;
-    border: 1px solid #59c2ff00;
-    float: left;
-    width: 180px;
-   
-    
+
+  .paragrafo hr{
+    margin-top: -2%;
+    width: 40%;
+    border-top-width: 3px;
+    border-color: #85a7ec;
   }
-  
-  div.gallery:hover {
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.24);
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 20%;
-    
-  }
-  
-  div.desc {
-    padding: 15px;
+
+  .paragrafo p{
+    font-size: 20px;
     text-align: center;
-    font-size: 25px;
-    
+    color: rgba(15, 18, 39, 0.884);
   }
+
+  .paragrafo a{
+    color: #38528a;
+    text-decoration: none;
+  }
+  .paragrafo a:hover{
+    color: #234999;
+    text-decoration: none;
+  }
+ 
